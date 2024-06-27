@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <met#aeb3b8et="utf-8">
+        <title>Alimov Abdullah</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Free Website Template" name="keywords">
+        <meta content="Free Website Template" name="description">
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet">
+
+        <!-- Icon Font Stylesheet -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body style="background-color: black;">
+
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+     <header>
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Matrix Falling Letters Navbar</title>
+            <style>
+                body {
+                    margin: 0;
+                    font-family: 'Arial', sans-serif;
+                    background-color: #000; /* Background color of the Matrix */
+                }
+        
+                .navbar {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: #000; /* Black background for navbar */
+                    padding: 10px 20px;
+                    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                    overflow: hidden;
+                    position: relative;
+                    height: 60px;
+                }
+        
+                .navbar .logo {
+                    z-index: 2;
+                    font-size: 24px;
+                    font-weight: bold;
+                    color: #0f0; /* Green color for text */
+                    position: relative;
+                }
+        
+                .code-marquee {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    overflow: hidden;
+                    z-index: 1;
+                    display: flex;
+                    justify-content: center;
+                }
+        
+                .code-marquee div {
+                    position: absolute;
+                    color: #0f0; /* Green color for Matrix effect */
+                    font-family: 'Courier New', Courier, monospace;
+                    white-space: nowrap;
+                    animation: fall 10s linear infinite;
+                    opacity: 0.7;
+                }
+        
+                .code-marquee div:nth-child(1) { animation-delay: -2s; }
+                .code-marquee div:nth-child(2) { animation-delay: -4s; }
+                .code-marquee div:nth-child(3) { animation-delay: -6s; }
+                .code-marquee div:nth-child(4) { animation-delay: -8s; }
+        
+                @keyframes fall {
+                    0% {
+                        top: -100%;
+                        opacity: 0;
+                    }
+                    50% {
+                        opacity: 1;
+                    }
+                    100% {
+                        top: 100%;
+                        opacity: 0;
+                    }
+                }
+            </style>
+        </head>
+        <body>
+            <nav class="navbar">
+                <div style="font-family: ALGERIAN;" class="logo">Alimov</div>
+                <div class="code-marquee">
+                    <div> 
+                        1 0 0 1 1 0 0 1 1 1 0 1 0 1 0 1 0 1 1 0 1 0 0 1 0 0 1 0 1 0 0 0 1 0 1 1 0 1 0 0 1 0 0 1 1 1 0 0 0 1 0
+                        0 1 0 1 1 0 0 1 1 1 0 1 0 1 0 0 0 1 1 0 1 0 0 1 0 0 1 1 1 0 0 0 1 0 1 1 0 1 0 0 1 0 0 1 1 1 0 0 0 1 0
+                    </div>
+                    <div>
+                        0 1 0 1 1 0 0 1 1 1 0 1 0 1 0 0 0 1 1 0 1 0 0 1 0 0 1 1 1 0 0 0 1 0 1 1 0 1 0 0 1 0 0 1 1 1 0 0 0 1 0
+                        1 0 0 1 1 0 0 1 1 1 0 1 0 1 0 0 0 1 1 0 1 0 0 1 0 0 1 0 1 0 0 0 1 0 1 1 0 1 0 0 1 0 0 1 1 1 0 0 0 1 0
+                    </div>
+                    <div>
+                        0 1 0 1 1 0 0 1 1 1 0 1 0 1 0 1 0 1 1 0 1 0 0 1 0 0 1 1 1 0 0 0 1 0 1 1 0 1 0 0 1 0 0 1 1 1 0 0 0 1 0
+                        0 1 0 1 1 1 0 1 1 1 0 1 0 1 0 0 0 1 1 0 1 0 0 1 0 0 1 1 1 0 0 0 1 0 1 1 0 1 0 0 1 0 1 1 1 1 0 0 0 1 0
+                    </div>
+                    <div>
+                        0 1 0 1 1 0 0 1 1 1 0 1 0 1 0 1 0 1 1 0 1 0 0 1 0 0 1 0 1 0 0 0 1 0 1 0 0 1 0 0 1 0 0 1 1 1 0 0 0 1 0
+                        0 1 0 1 1 0 0 1 1 1 0 1 0 1 0 0 0 1 1 0 1 0 0 1 0 0 1 1 1 0 0 0 1 0 1 1 0 1 0 0 1 0 0 1 1 1 0 0 0 1 0
+                    </div>
+                    <div>
+                        0 1 0 1 1 0 0 1 1 1 0 1 0 1 0 0 0 1 1 0 1 0 0 1 0 0 1 1 1 0 0 0 1 0 1 1 0 1 0 0 1 0 0 1 1 1 0 0 0 1 0
+                        1 0 0 1 1 0 0 1 1 1 0 1 0 1 0 0 0 1 1 0 1 0 0 1 0 0 1 0 1 0 0 0 1 0 1 1 0 1 0 0 1 0 0 1 1 1 0 0 0 1 0
+                    </div>
+                    <div>
+                        0 1 0 1 1 0 0 1 1 1 0 1 0 1 0 0 0 1 1 0 1 0 0 1 0 0 1 1 1 0 0 0 1 0 1 1 0 1 0 0 1 0 0 1 1 1 0 0 0 1 0
+                        1 0 0 1 1 0 0 1 1 1 0 1 0 1 0 0 0 1 1 0 1 0 0 1 0 0 1 0 1 0 0 0 1 0 1 1 0 1 0 0 1 0 0 1 1 1 0 0 0 1 0
+                    </div>
+                    <div>
+                        0 1 0 1 1 0 0 1 1 1 0 1 0 1 0 0 0 1 1 0 1 0 0 1 0 0 1 1 1 0 0 0 1 0 1 1 0 1 0 0 1 0 0 1 1 1 0 0 0 1 0
+                        1 0 0 1 1 0 0 1 1 1 0 1 0 1 0 0 0 1 1 0 1 0 0 1 0 0 1 0 1 0 0 0 1 0 1 1 0 1 0 0 1 0 0 1 1 1 0 0 0 1 0
+                    </div>
+                    <div>
+                        0 1 0 1 1 0 0 1 1 1 0 1 0 1 0 0 0 1 1 0 1 0 0 1 0 0 1 1 1 0 0 0 1 0 1 1 0 1 0 0 1 0 0 1 1 1 0 0 0 1 0
+                        1 0 0 1 1 0 0 1 1 1 0 1 0 1 0 0 0 1 1 0 1 0 0 1 0 0 1 0 1 0 0 0 1 0 1 1 0 1 0 0 1 0 0 1 1 1 0 0 0 1 0
+                    </div>
+                    <div>
+                        0 1 0 1 1 0 0 1 1 1 0 1 0 1 0 0 0 1 1 0 1 0 0 1 0 0 1 1 1 0 0 0 1 0 1 1 0 1 0 0 1 0 0 1 1 1 0 0 0 1 0
+                        1 0 0 1 1 0 0 1 1 1 0 1 0 1 0 0 0 1 1 0 1 0 0 1 0 0 1 0 1 0 0 0 1 0 1 1 0 1 0 0 1 0 0 1 1 1 0 0 0 1 0
+                    </div>
+                    <div>
+                        0 1 0 1 1 0 0 1 1 1 0 1 0 1 0 0 0 1 1 0 1 0 0 1 0 0 1 1 1 0 0 0 1 0 1 1 0 1 0 0 1 0 0 1 1 1 0 0 0 1 0
+                        1 0 0 1 1 0 0 1 1 1 0 1 0 1 0 0 0 1 1 0 1 0 0 1 0 0 1 0 1 0 0 0 1 0 1 1 0 1 0 0 1 0 0 1 1 1 0 0 0 1 0
+                    </div>
+                    <div>
+                        0 1 0 1 1 0 0 1 1 1 0 1 0 1 0 0 0 1 1 0 1 0 0 1 0 0 1 1 1 0 0 0 1 0 1 1 0 1 0 0 1 0 0 1 1 1 0 0 0 1 0
+                        1 0 0 1 1 0 0 1 1 1 0 1 0 1 0 0 0 1 1 0 1 0 0 1 0 0 1 0 1 0 0 0 1 0 1 1 0 1 0 0 1 0 0 1 1 1 0 0 0 1 0
+                    </div>
+                    <div>
+                        0 1 0 1 1 0 0 1 1 1 0 1 0 1 0 0 0 1 1 0 1 0 0 1 0 0 1 1 1 0 0 0 1 0 1 1 0 1 0 0 1 0 0 1 1 1 0 0 0 1 0
+                        1 0 0 1 1 0 0 1 1 1 0 1 0 1 0 0 0 1 1 0 1 0 0 1 0 0 1 0 1 0 0 0 1 0 1 1 0 1 0 0 1 0 0 1 1 1 0 0 0 1 0
+                    </div>
+                    <div>
+                        0 1 0 1 1 0 0 1 1 1 0 1 0 1 0 0 0 1 1 0 1 0 0 1 0 0 1 1 1 0 0 0 1 0 1 1 0 1 0 0 1 0 0 1 1 1 0 0 0 1 0
+                        1 0 0 1 1 0 0 1 1 1 0 1 0 1 0 0 0 1 1 0 1 0 0 1 0 0 1 0 1 0 0 0 1 0 1 1 0 1 0 0 1 0 0 1 1 1 0 0 0 1 0
+                    </div>
+                </div>
+            </nav>
+        </body>
+        </html>
+        
+        
+        
+     </header>
+    <style>
+        
+        .btn-social {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .btn-social:hover {
+            transform: translateY(-3px);
+        }
+
+        .btn-twitter {
+            color: #1da1f2;
+        }
+
+        .btn-facebook {
+            color: #1877f2;
+        }
+
+        .btn-linkedin {
+            color: #0a66c2;
+        }
+
+        .btn-instagram {
+            color: #e1306c;
+        }
+
+        .portfolio-item {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .portfolio-content {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .portfolio-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            /* Полупрозрачный черный фон */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            /* Начально скрытое перекрытие */
+            transition: opacity 0.3s ease;
+        }
+
+        .portfolio-item:hover .portfolio-overlay {
+            opacity: 1;
+            /* Показывать перекрытие при наведении */
+        }
+
+        .portfolio-link {
+            color: #fff;
+            font-size: 2rem;
+            transition: transform 0.3s ease;
+        }
+
+        .portfolio-link:hover {
+            transform: scale(1.2);
+            /* Увеличение иконки при наведении */
+        }
+    </style>
+
+
+    <div class="container">
+        <div class="row g-5">
+            <div class="col-lg-4 sticky-lg-top vh-100">
+                <div class="d-flex flex-column h-100 text-center overflow-auto shadow">
+                    <img class="w-100 img-fluid mb-4" style="padding-top: 16%;  " src="img/profile.jpg" alt="Image">
+                    <h1 style="font-family:Georgia "> Alimov Abdullah</h1>
+                    <div class="mb-4" style="height: 22px;">
+                        <h4 style="font-family:Georgia " class="typed-text-output d-inline-block text-light"></h4>
+                        <div class="typed-text d-none">Web Designer, Web Developer, Front End Developer</div>
+                    </div>
+                    <div class="d-flex justify-content-center mt-auto mb-3">
+                        <a style=" color:green ;" class="btn btn-social btn-whatsapp mx-1"
+                            href="https://api.whatsapp.com/send?phone=994775247083"><i class="fab fa-whatsapp"></i></a>
+                        <a class="btn btn-social btn-facebook mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-social btn-linkedin mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-social btn-instagram mx-1" href="https://www.instagram.com/alimov.a.1/"><i
+                                class="fab fa-instagram"></i></a>
+                    </div>
+
+                    <div class="d-flex align-items-end justify-content-between border-top">
+                        <a href="" style="font-family: FANTASY;" class="btn w-50 border-end">Download CV</a>
+                        <a href="#contact" style="font-family: FANTASY;" class="btn w-50 btn-scroll">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <!-- About Start -->
+                <section class="py-5 border-bottom wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 style="font-family: 'Times New Roman' ;" class="title pb-3 mb-5">About Me</h1>
+                    <p style="font-family: 'Times New Roman' ;">Abdullah Alimov is a backend developer with extensive
+                        experience working as a freelancer. He is open to new technologies and constantly improving his
+                        skills. He has deep knowledge and practical experience with technologies such as ASP.NET Core,
+                        C#, MSSQL, and MySQL. Additionally, he has basic knowledge of HTML and CSS.
+                        <br>
+                        <br>
+
+                        Beyond his technical skills, Abdullah is fluent in three languages: English, Russian, and
+                        Turkish, making him an ideal candidate for international projects. At the age of 20, he has
+                        already established himself as a reliable and talented developer, ready to tackle complex
+                        challenges and offer innovative solutions.
+                        <br>
+                        <br>
+                        If you are looking for a specialist who is not afraid of difficult tasks and always eager to
+                        learn new things, Abdullah Alimov is your ideal choice.
+                    </p>
+
+                    <div class="row mb-4">
+                        <div style="font-family: Georgia " class="col-sm-6 py-1">
+                            <span style="font-family:fantasy;   " class="fw-medium text-primary">Name:</span> Alimov
+                            Abdullah
+                        </div>
+                        <div style="font-family: Georgia " class="col-sm-6 py-1">
+                            <span style="font-family:fantasy" class="fw-medium text-primary">Birthday:</span> 16 Jul
+                        </div>
+                        <div style="font-family: Georgia " class="col-sm-6 py-1">
+                            <span style="font-family:fantasy" class="fw-medium text-primary">Degree:</span> Master
+                        </div>
+                        <div style="font-family: Georgia " class="col-sm-6 py-1">
+                            <span style="font-family:fantasy" class="fw-medium text-primary">Experience:</span> 10 Years
+                        </div>
+                        <div style="font-family: Georgia " class="col-sm-6 py-1">
+                            <span style="font-family:fantasy" class="fw-medium text-primary">Phone:</span> +994 77
+                            524-70-83
+                        </div>
+                        <div style="font-family: Georgia " class="col-sm-6 py-1">
+                            <span style="font-family:fantasy" class="fw-medium text-primary">Email:</span>
+                            abdullaalimov555@gmail.com
+                        </div>
+                        <div style="font-family: Georgia " class="col-sm-6 py-1">
+                            <span style="font-family:fantasy" class="fw-medium text-primary">Address:</span> 127.0.0.1
+                        </div>
+                        <div style="font-family: Georgia " class="col-sm-6 py-1">
+                            <span style="font-family:fantasy" class="fw-medium text-primary">Freelance:</span> Available
+                        </div>
+                    </div>
+                    <div class="row g-4">
+                        <div class="col-md-4 col-lg-6 col-xl-4">
+                            <div style="border-radius: 5%;" class="d-flex bg-secondary p-4">
+                                <h1 style="font-family:'Franklin Gothic Medium'  "
+                                    class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">10</h1>
+                                <div class="ps-3">
+                                    <p style="font-family:   Times " class="mb-0">Years of</p>
+                                    <h5 style="font-family:   Calibri " class="mb-0">Experience</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-6 col-xl-4">
+                            <div style="border-radius: 5%;" class="d-flex bg-secondary p-4">
+                                <h1 style="font-family:'Franklin Gothic Medium'  "
+                                    class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">100</h1>
+                                <div class="ps-3">
+                                    <p style="font-family:   Times " class="mb-0">Happy</p>
+                                    <h5 style="font-family:   Calibri " class="mb-0">Clients</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-6 col-xl-4">
+                            <div style="border-radius: 5%;" class="d-flex bg-secondary p-4">
+                                <h1 style="font-family:'Franklin Gothic Medium'  "
+                                    class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">200</h1>
+                                <div class="ps-3">
+                                    <p style="font-family:   Times " class="mb-0">Complete</p>
+                                    <h5 style="font-family:   Calibri " class="mb-0">Projects</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- About End -->
+
+                <!-- Skills Start -->
+                <section class="py-5 border-bottom wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 style="font-family: 'Times New Roman' ;" class="title pb-3 mb-5">Skills</h1>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <p class="mb-2">c#</p>
+                                    <p class="mb-2">95%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="95"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <p class="mb-2">.Net</p>
+                                    <p class="mb-2">85%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="85"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <p class="mb-2">PHP</p>
+                                    <p class="mb-2">90%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <p class="mb-2">Javascript</p>
+                                    <p class="mb-2">90%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <p class="mb-2">Angular JS</p>
+                                    <p class="mb-2">95%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-success" role="progressbar" aria-valuenow="95"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <p class="mb-2">Wordpress</p>
+                                    <p class="mb-2">85%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-info" role="progressbar" aria-valuenow="85"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Skills End -->
+
+                <!-- Expericence Start -->
+                <section class="py-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 style="font-family: 'Times New Roman' ;" class="title pb-3 mb-5">Expericence</h1>
+                    <div class="border-start border-2 border-light pt-2 ps-5">
+                        <div class="position-relative mb-4">
+                            <span class="bi bi-arrow-right fs-4 text-light position-absolute"
+                                style="top: -5px; left: -50px;"></span>
+                            <h5 style="font-family:'Times New Roman' " class="mb-1">Web Developer</h5>
+                            <p style="font-family: Cambria " class="mb-2">Soft Company | <small>2000 - 2050</small></p>
+                            <p style="font-family: Georgia;">Tempor eos dolore amet tempor dolor tempor. Dolore ea magna
+                                sit amet dolor eirmod. Eos ipsum est tempor dolor. Clita lorem kasd sed ea lorem diam ea
+                                lorem eirmod duo sit ipsum stet lorem diam</p>
+                        </div>
+                        <div class="position-relative mb-4">
+                            <span class="bi bi-arrow-right fs-4 text-light position-absolute"
+                                style="top: -5px; left: -50px;"></span>
+                            <h5 style="font-family:'Times New Roman' " class="mb-1">Web Designer</h5>
+                            <p style="font-family: Cambria " class="mb-2">Soft Company | <small>2000 - 2050</small></p>
+                            <p style="font-family: Georgia;">Tempor eos dolore amet tempor dolor tempor. Dolore ea magna
+                                sit amet dolor eirmod. Eos ipsum est tempor dolor. Clita lorem kasd sed ea lorem diam ea
+                                lorem eirmod duo sit ipsum stet lorem diam</p>
+                        </div>
+                        <div class="position-relative mb-4">
+                            <span class="bi bi-arrow-right fs-4 text-light position-absolute"
+                                style="top: -5px; left: -50px;"></span>
+                            <h5 style="font-family:'Times New Roman' " class="mb-1">Web Designer</h5>
+                            <p style="font-family: Cambria " class="mb-2">Soft Company | <small>2000 - 2050</small></p>
+                            <p style="font-family: Georgia;">Tempor eos dolore amet tempor dolor tempor. Dolore ea magna
+                                sit amet dolor eirmod. Eos ipsum est tempor dolor. Clita lorem kasd sed ea lorem diam ea
+                                lorem eirmod duo sit ipsum stet lorem diam</p>
+                        </div>
+                    </div>
+                </section>
+                <!-- Expericence End -->
+
+                <!-- Subscribe Start -->
+                <section class="wow fadeInUp" data-wow-delay="0.1s"
+                    style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+                    <div style="border-radius: 5%;" class="bg-secondary text-center p-5">
+                        <h1 style="font-family: Times;" class="text-white font-weight-bold">Subscribe My Newsletter</h1>
+                        <p style="font-family:'Times New Roman' " class="text-white">Subscribe and get my latest article
+                            in your inbox</p>
+                        <div class="position-relative w-100">
+                            <input class="form-control bg-dark border-0 w-100 py-3 ps-4 pe-5" type="text"
+                                placeholder="Your email">
+                            <button type="button"
+                                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Subscribe</button>
+                        </div>
+                    </div>
+                </section>
+                <!-- Subscribe End -->
+
+                <!-- Services Start -->
+                <section class="py-5 border-bottom wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 style="font-family: 'Times New Roman' ;" class="title pb-3 mb-5">Services</h1>
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div style="border-radius: 1%;" class="service-item">
+                                <i style="background-color: black; border-radius: 13%;"
+                                    class="fa fa-2x fa-laptop-code mx-auto mb-4"></i>
+                                <h5 class="mb-2">Web Design</h5>
+                                <p class="mb-0">Creating an effective website requires attention to design and
+                                    usability. A site should be visually appealing, easy to navigate, and optimized for
+                                    all devices. Ensuring a positive user experience will lead to higher engagement and
+                                    satisfaction.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div style="border-radius: 1%;" class="service-item">
+                                <i style="background-color: black; border-radius: 13%;"
+                                    class="fab fa-2x fa-android mx-auto mb-4"></i>
+                                <h5 class="mb-2">Apps Development</h5>
+                                <p class="mb-0">Building a successful app requires a combination of creativity, coding
+                                    skills, and user-centric design. The app should be intuitive, responsive, and offer
+                                    a seamless experience across devices. Regular updates and user feedback are key to
+                                    maintaining and improving the app.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div style="border-radius: 1%;" class="service-item">
+                                <i style="background-color: black; border-radius: 13%;"
+                                    class="fa fa-2x fa-search mx-auto mb-4"></i>
+                                <h5 class="mb-2">SEO</h5>
+                                <p class="mb-0">Search Engine Optimization (SEO) helps improve your website's visibility
+                                    on search engines like Google. By using relevant keywords, optimizing content, and
+                                    building quality backlinks, you can increase organic traffic. Effective SEO leads to
+                                    higher rankings and more potential customers.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div style="border-radius: 1%;" class="service-item">
+                                <i style="background-color: black; border-radius: 13%;"
+                                    class="fa fa-2x fa-edit mx-auto mb-4"></i>
+                                <h5 class="mb-2">Content Creating</h5>
+                                <p class="mb-0">Effective content creation involves crafting engaging and valuable
+                                    material for your audience. This includes blog posts, videos, and social media
+                                    updates. Quality content boosts user engagement, improves SEO rankings, and builds
+                                    brand credibility. Consistency is key to maintaining audience interest.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Services End -->
+
+                <!-- Portfolio Start -->
+                <section class="py-5 border-bottom wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 style="font-family: 'Times New Roman' ;" class="title pb-3 mb-5">Portfolio</h1>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-12 text-center mb-2">
+                                    <ul class="list-inline mb-4" id="portfolio-flters">
+                                        <li style="font-family:   Georgia" class="btn btn-secondary active"
+                                            data-filter="*"><i style=" color: #00B87B;;" class="fa fa-star me-2"></i>All
+                                        </li>
+                                        <li style="font-family:   Georgia" class="btn btn-secondary"
+                                            data-filter=".first"><i style=" color: #00B87B;;"
+                                                class="fa fa-laptop-code me-2"></i>Design</li>
+                                        <li style="font-family:   Georgia" class="btn btn-secondary"
+                                            data-filter=".second"><i style=" color: #00B87B;   "
+                                                class="fa fa-mobile-alt me-2"></i>Development</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row portfolio-container">
+                                <div class="col-md-6 mb-4 portfolio-item first">
+                                    <div class="position-relative overflow-hidden mb-2">
+                                        <img class="img-fluid w-100" src="img/57540eb6-ae80-4f8d-9513-5abe5f8e244f.jpeg"
+                                            alt="">
+                                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                                            <a href="img/57540eb6-ae80-4f8d-9513-5abe5f8e244f.jpeg"
+                                                data-lightbox="portfolio">
+                                                <i class="bi bi-plus text-light"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4 portfolio-item second">
+                                    <div class="position-relative overflow-hidden mb-2">
+                                        <img class="img-fluid w-100" src="img/83af7118-f45d-47fe-a32e-f01e553b2883.jpeg"
+                                            alt="">
+                                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                                            <a href="img/83af7118-f45d-47fe-a32e-f01e553b2883.jpeg"
+                                                data-lightbox="portfolio">
+                                                <i class="bi bi-plus text-light"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4 portfolio-item first">
+                                    <div class="position-relative overflow-hidden mb-2">
+                                        <img class="img-fluid w-100"
+                                            src="img/Europe - Documentary Series Landing Page.jpeg" alt="">
+                                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                                            <a href="img/Europe - Documentary Series Landing Page.jpeg"
+                                                data-lightbox="portfolio">
+                                                <i class="bi bi-plus text-light"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4 portfolio-item second">
+                                    <div class="position-relative overflow-hidden mb-2">
+                                        <img class="img-fluid w-100" src="img/Design_Web_jpg by Tomasz Mazurczak.jpeg"
+                                            alt="">
+                                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                                            <a href="img/Design_Web_jpg by Tomasz Mazurczak.jpeg"
+                                                data-lightbox="portfolio">
+                                                <i class="bi bi-plus text-light"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Portfolio End -->
+
+                <!-- Testimonial Start -->
+                <section class="py-5 border-bottom wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 style="font-family: 'Times New Roman' ;" class="title pb-3 mb-5">Testimonial</h1>
+                    <div class="owl-carousel testimonial-carousel">
+                        <div class="text-left">
+                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                            <p style="font-family: MV BOLI;" class="fs-4 mb-4">Abdullah demonstrated a high level of
+                                professionalism and skill. The
+                                project was completed on time and exceeded expectations. Highly recommended for any web
+                                development needs.</p>
+                            <div class="d-flex align-items-center">
+                                <img class="img-fluid" src="img/Снимок экрана (81).png"
+                                    style="width: 60px; height: 60px;">
+                                <div class="ps-3">
+                                    <p style="font-family: MONACO;" class="text-primary fs-5 mb-1">Aykhan Muslumov</p>
+                                    <i style="font-family: segoe print;">Marketing Specialist</i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-left">
+                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                            <p style="font-family: MV BOLI;" class="fs-4 mb-4">Working with Abdullah was a great
+                                experience. He consistently provided
+                                creative solutions and high-quality work. A valuable team member.
+
+                            </p>
+                            <div class="d-flex align-items-center">
+                                <img class="img-fluid" src="img/testimonial-2.jpg" style="width: 60px; height: 60px;">
+                                <div class="ps-3">
+                                    <p style="font-family: MONACO;" class="text-primary fs-5 mb-1">Andrew Robertson</p>
+                                    <i style="font-family: segoe print;"> Businessman </i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-left">
+                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                            <p style="font-family: MV BOLI;" class="fs-4 mb-4">Abdullah has proven his dedication and
+                                talent. His innovative
+                                approaches and reliability have significantly contributed to the success of our
+                                projects.</p>
+                            <div class="d-flex align-items-center">
+                                <img class="img-fluid" src="img/testimonial-3.jpg" style="width: 60px; height: 60px;">
+                                <div class="ps-3">
+                                    <p style="font-family: MONACO;" class="text-primary fs-5 mb-1">Matthew Trump</p>
+                                    <i style="font-family: segoe print;">Web Engineer</i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Testimonial End -->
+
+                <section class="py-5 wow fadeInUp" data-wow-delay="0.1s" id="contact">
+                    <style>
+                        .form-floating {
+                            position: relative;
+                            margin-bottom: 1.5rem;
+                        }
+
+                        .form-floating input,
+                        .form-floating textarea {
+                            border: none;
+                            border-radius: 10px;
+                            /* Закругленные углы */
+                            background-color: #f8f9fa;
+                            /* Фон поля ввода */
+                            padding: 1rem;
+                            height: auto;
+                            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+                            /* Тень */
+                            transition: box-shadow 0.3s ease;
+                        }
+
+                        .form-floating input:focus,
+                        .form-floating textarea:focus {
+                            outline: none;
+                            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+                            /* Усиленная тень при фокусе */
+                        }
+
+                        .form-floating label {
+                            position: absolute;
+                            top: 0;
+                            left: 1rem;
+                            font-size: 0.9rem;
+                            color: #6c757d;
+                            /* Цвет текста метки */
+                            pointer-events: none;
+                            transform-origin: top left;
+                            transition: all 0.2s ease-out;
+                        }
+
+                        .form-floating input:focus~label,
+                        .form-floating textarea:focus~label,
+                        .form-floating input:not(:placeholder-shown)~label,
+                        .form-floating textarea:not(:placeholder-shown)~label {
+                            transform: translateY(-30%) scale(0.85);
+                            /* Подъем метки и уменьшение размера при фокусе или заполнении */
+                            color: #007bff;
+                            /* Цвет текста метки при фокусе или заполнении */
+                        }
+
+                        .btn-primary {
+                            background-color: #007bff;
+                            /* Основной цвет кнопки */
+                            border: none;
+                            border-radius: 10px;
+                            /* Закругленные углы */
+                            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+                            /* Тень */
+                            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+                        }
+
+                        .btn-primary:hover {
+                            background-color: #0056b3;
+                            /* Цвет кнопки при наведении */
+                            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+                            /* Усиленная тень при наведении */
+                        }
+                    </style>
+
+                    <h1 class="title pb-3 mb-5 text-center" style="font-family: 'Times New Roman';">Contact Me</h1>
+                    <p class="mb-4 text-center"> <a href="https://htmlcodex.com/contact-form"> </a></p>
+                    <form>
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                    <label for="name">Your Name</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                    <label for="email">Your Email</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                    <label for="subject">Subject</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Leave a message here" id="message"
+                                        style="height: 200px"></textarea>
+                                    <label for="message">Message</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button style="background-color: #00B87B;" class="btn btn-primary w-100 py-3"
+                                    type="submit">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </section>
+
+
+                <!-- Footer Start -->
+                <section class="wow fadeIn" data-wow-delay="0.1s">
+
+                    <div class="bg-secondary text-light text-center p-5">
+                        <div class="d-flex justify-content-center mb-4">
+                            <a class="btn btn-dark btn-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-dark btn-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-dark btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-dark btn-square mx-1" href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                        <div class="d-flex justify-content-center mb-3">
+                            <a style="font-family: CORBEL;" class="text-light px-3 border-end" href="#">Privacy</a>
+                            <a style="font-family: CORBEL;" class="text-light px-3 border-end" href="#">Terms</a>
+                            <a style="font-family: CORBEL;" class="text-light px-3 border-end" href="#">FAQs</a>
+                            <a style="font-family: CORBEL;" class="text-light px-3" href="#">Help</a>
+                        </div>
+
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        <p style="font-family: CORBEL;" class="m-0">&copy; © All Rights Reserved. Designed by <a
+                                href="https://htmlcodex.com">Alimov's
+                                Company</a></p>
+                    </div>
+                </section>
+                <!-- Footer End -->
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Back to Top -->
+    <a href="#" class="back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
